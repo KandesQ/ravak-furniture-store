@@ -1,0 +1,84 @@
+.hero
+{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 732px;
+    margin-top: 7px;
+}
+
+.hero__background
+{
+    background-image: url(../../../assets/images/heroBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero__wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.hero__title
+{
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 66px;
+    width: 489px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.hero__description
+{
+    font-family: "Helvetica Neue", sans-serif;
+    color: #1A1A1A;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.4;
+    width: 326px;
+}
+
+.hero__button
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    width: fit-content;
+    padding: 25px 74px;
+    border: none;
+    background-color: #444444;
+}
+
+.right__container
+{
+    width: 100px;
+    height: 100%;
+}
+
+.hero__container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1321px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.hero__content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}

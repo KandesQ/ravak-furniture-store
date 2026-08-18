@@ -22,6 +22,22 @@
   font-style: normal;
 }
 
+@font-face
+{
+  font-family: "Cormorant Garamond";
+  src: url("./assets/fonts/CormorantGaramond-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
 *
 {
   font-family: "Helvetica Neue", sans-serif;
@@ -53,3 +69,12 @@ a
     color: #5A5A5A;
 }
 
+h1
+{
+  margin: 0;
+}
+
+p
+{
+  margin: 0;
+}
