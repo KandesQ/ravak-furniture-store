@@ -6,6 +6,7 @@ import search from "../../../assets/icons/Search.svg"
 import person from "../../../assets/icons/Person.svg"
 import heart from "../../../assets/icons/Heart.svg"
 import trash from "../../../assets/icons/Trash.svg"
+import burger from "../../../assets/icons/Burger.svg"
 
 export default function Header()
 {
@@ -90,6 +91,12 @@ export default function Header()
                                 className="categories__option-item"
                                 href="#">
                                     <img src={trash} alt="trash" />
+                               </a>
+
+                               <a 
+                                className="categories__option-item main-page-header__navigation-burger-menu"
+                                href="#">
+                                    <img src={burger} className="header-menu__burger" alt="trash" />
                                </a>
                             </div>
                         </div>

@@ -84,11 +84,16 @@
     color: black;
 }
 
-/* .left-container
+.main-page-header__navigation-burger-menu
 {
-    height: 11px;
-    width: 200px;
-} */
+    display: none;
+}
+
+.header-menu__burger
+{
+    width: 18px;
+    height: 12px;
+}
 
 .menu
 {
@@ -113,4 +118,52 @@
 {
     display: flex;
     gap: 10px;
+}
+
+@media (max-width: 1216px)
+{
+    .main-page-header__navigation-list
+    {
+        display: none;
+    }
+
+    .main-page-header__navigation-container
+    {
+        padding-left: 70px;
+    }
+
+    .main-page-header__navigation-burger-menu
+    {
+        display: flex;
+        align-items: center;
+        transform: translateY(-1px);
+    }
+
+    .categories__work-phone
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .left-container
+    {
+        display: none;
+    }
+
+    .main-page-header__info-list
+    {
+        padding: 0;
+    }
+
+    .main-page-header__info
+    {
+        justify-content: center;
+    }
+
+    .main-page-header__navigation-container
+    {
+        padding: 0 20px;
+    }
 }

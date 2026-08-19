@@ -73,7 +73,7 @@
     justify-content: space-between;
     max-width: 1321px;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 70px;
 }
 
 .hero__content
@@ -82,3 +82,8 @@
     flex-direction: column;
     gap: 28px;
 }
+/* 
+@media (max-width: 1216px)
+{
+
+} */
