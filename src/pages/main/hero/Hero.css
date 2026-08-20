@@ -16,7 +16,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .hero__wrapper
@@ -30,7 +30,9 @@
 {
     font-family: "Cormorant Garamond", sans-serif;
     font-size: 66px;
-    width: 489px;
+    display: flex;
+    max-width: 489px;
+    min-width: 338px;
     font-weight: 700;
     line-height: 0.9;
 }
@@ -39,10 +41,12 @@
 {
     font-family: "Helvetica Neue", sans-serif;
     color: #1A1A1A;
+    display: flex;
+    max-width: 326px;
+    min-width: 292px;
     font-weight: 500;
     font-size: 15px;
     line-height: 1.4;
-    width: 326px;
 }
 
 .hero__button
@@ -59,11 +63,6 @@
     background-color: #444444;
 }
 
-.right__container
-{
-    width: 100px;
-    height: 100%;
-}
 
 .hero__container
 {
@@ -71,9 +70,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    max-width: 1321px;
+    max-width: 1320px;
+    margin: 0 auto;
     width: 100%;
-    padding: 0 70px;
+    padding: 70px;
+    z-index: 1;
 }
 
 .hero__content
@@ -82,8 +83,129 @@
     flex-direction: column;
     gap: 28px;
 }
-/* 
-@media (max-width: 1216px)
-{
 
-} */
+@media (max-width: 1200px)
+{
+    .hero__container
+    {
+        padding: 50px 0;
+        justify-content: center;
+    }
+
+    .hero
+    {
+        height: 900px;
+    }
+
+
+    .hero__background
+    {
+        position: inherit;
+    }
+
+    .hero
+    {
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .hero__title
+    {
+        text-align: center;
+    }
+
+    .hero__description
+    {
+        text-align: center;
+
+    }
+
+    .hero__wrapper
+    {
+        align-items: center;
+    }
+
+    .hero__content
+    {
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    .hero__container
+    {
+        justify-content: start;
+        padding: 50px 70px;
+    }
+
+        .hero__title
+    {
+        text-align: start;
+    }
+
+    .hero__description
+    {
+        text-align: start;
+
+    }
+
+    .hero__wrapper
+    {
+        align-items: start;
+    }
+
+    .hero__content
+    {
+        align-items: start;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .hero
+    {
+        height: 602px;
+    }
+
+    .hero__container
+    {
+        padding: 13px 20px;
+    }
+
+    .hero__title
+    {
+
+        font-size: 38px;
+    }
+
+    .hero__description
+    {
+        font-size: 13px;
+    }
+
+    .hero__button
+    {
+        font-size: 12px;
+        padding: 16px 43px;
+    }
+
+    .hero__wrapper
+    {
+        gap: 11px;
+    }
+
+    .hero__content
+    {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 425px) 
+{
+    .hero__background
+    {
+        background-image: url(../../../assets/images/CroppedBackground.png);
+
+    }
+}

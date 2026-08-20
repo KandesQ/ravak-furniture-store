@@ -4,8 +4,6 @@ export default function Hero()
 {
     return (
         <div className="hero">
-            <div className="hero__background"></div>
-
             <div className="hero__container">
                 <div className="hero__content">
                     <div className="hero__wrapper">
@@ -17,8 +15,9 @@ export default function Hero()
                     
                 </div>
                 
-                <div className="right__container"></div>
             </div>
+
+            <div className="hero__background"></div>
         </div>
     )
 }
