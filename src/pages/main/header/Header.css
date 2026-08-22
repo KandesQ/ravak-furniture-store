@@ -1,18 +1,18 @@
 .main-page-header__info
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     height: 30px;
     width: 100%;
-    max-width: 1375px;
+    max-width: 1320px;
 }
 
 .main-page-header__info-list
 {
     display: flex;
     gap: 22px;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 
 .main-page-header__catalog-link

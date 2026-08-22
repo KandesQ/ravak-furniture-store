@@ -19,11 +19,7 @@ export default function Header()
                     <div className="background-color"></div>
                     <div className="main-page-header__info">
 
-                    <div className="left-container">
-                        {/* I use this empty block to even main-page-header__info-list to make
-                        a container width 
-                        */}
-                    </div>
+                    
                     
                     <ul className="main-page-header__info-list">
                         <li className="main-page-header__info-item"><a href="#">Акции</a></li>
