@@ -127,11 +127,6 @@
         display: none;
     }
 
-    .main-page-header__navigation-container
-    {
-        padding-left: 70px;
-    }
-
     .main-page-header__navigation-burger-menu
     {
         display: flex;
