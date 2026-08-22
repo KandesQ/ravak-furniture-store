@@ -1,0 +1,79 @@
+.catalog
+{
+    max-width: 1321px;
+    margin: 0 auto;
+    margin-top: 65px;
+    padding: 0 20px;
+}
+
+.catalog__title
+{
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.catalog__categories
+{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 19px;
+}
+
+.catalog__categories-item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.category-item__title
+{
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+
+@media (max-width: 1024px)
+{
+  .catalog__categories {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+
+@media (max-width: 768px)
+{
+  .catalog__title {
+    font-size: 38px;
+  }
+
+  .category-item__title
+  {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+    .catalog__categories 
+    {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+} 
+
+@media (max-width: 425px)
+{
+    .catalog__categories-item
+    {
+        gap: 6px;
+    }
+    
+    .catalog__categories
+    {
+        gap: 10px;
+    }
+}
