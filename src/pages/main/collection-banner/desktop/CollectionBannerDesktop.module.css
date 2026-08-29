@@ -1,0 +1,80 @@
+.collection-banner
+{
+    display: flex;
+    max-width: 1321px;
+    height: 260px;
+    align-items: center;
+
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0 30px;
+    background-image: url("../../../../assets/images/collectionBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+}
+
+.collection-banner__content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-left: 45px;
+}
+
+.collection-banner__content-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.collection-banner__content-title
+{
+    width: fit-content;
+    max-width: 500px;
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 0.9;
+    color: #1A1A1A;
+}
+
+.collection-banner__content-description
+{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #1A1A1A;
+    width: 326px;
+    height: 42px;
+}
+
+.collection-banner__content-button
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    width: fit-content;
+    padding: 19px 87px;
+    border: none;
+    background-color: #444444;
+}
+
+@media (max-width: 1150px)
+{
+    .collection-banner
+    {
+        height: 300px;
+    }
+
+    .collection-banner__content-title
+    {
+        max-width: 300px;
+    }
+}
