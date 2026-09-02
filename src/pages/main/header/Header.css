@@ -6,13 +6,13 @@
     height: 30px;
     width: 100%;
     max-width: 1320px;
+    padding-right: 15px;
 }
 
 .main-page-header__info-list
 {
     display: flex;
     gap: 24px;
-    padding: 0 30px;
 }
 
 .main-page-header__catalog-link
@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .main-page-header__navigation-list
