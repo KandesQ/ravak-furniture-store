@@ -1,0 +1,175 @@
+.special-offer
+{
+    background-color: #EEEEEE;
+    display: flex;
+    max-width: 1321px;
+    height: 306px;
+    align-items: center;
+    gap: 63px;
+
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 0 30px;
+    background-clip: content-box;
+}
+
+.special-offer__title-break
+{
+    display: none;
+}
+
+.special-offer__description
+{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.special-offer__description-title-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.special-offer__footnote
+{
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 15px;
+    color: #1A1A1A;
+}
+
+.special-offer__title
+{
+    font-family: "Cormorant Garamond";
+    font-weight: 700;
+    line-height: 0.9;
+    font-size: 46px;
+    color: #1A1A1A;
+    padding-right: 20px;
+}
+
+.special-offer__button
+{
+    font-family: "Inter";
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 15px;
+    color: white;
+    background-color: #67702D;
+    padding: 19px 88px;
+    border: none;
+    width: fit-content;
+}
+
+@media (max-width: 1440px)
+{
+    .special-offer
+    {
+        height: auto;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .special-offer__title
+    {
+        width: 700px;
+        padding-right: 0;
+    }
+
+    .special-offer__image
+    {
+        width: 100%;
+    }
+
+    .special-offer__description
+    {
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .special-offer__button
+    {
+        padding: 30px 150px;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    .special-offer__title
+    {
+        font-size: 38px;
+    }
+
+    .special-offer__description
+    {
+        gap: 35px;
+    }
+
+    .special-offer__footnote
+    {
+        font-size: 14px;
+    }
+
+    .special-offer__button
+    {
+        font-size: 12px;
+        padding: 16px 103px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .special-offer__description
+    {
+        padding-left: 15px;
+        padding-right: 7px;
+    }
+
+    .special-offer__title
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 490px)
+{
+    .special-offer
+    {
+        gap: 15px;
+    }
+
+    .special-offer__description
+    {
+        align-items: start;
+        text-align: start;
+        gap: 11px;
+        padding-bottom: 17px;
+    }
+
+    .special-offer__description-title-wrapper
+    {
+        gap: 11px;
+    }
+
+    .special-offer__title
+    {
+        font-size: 33px;
+    }
+
+    .special-offer__button
+    {
+        padding: 16px 74px;
+    }
+}
+
+@media (max-width: 390px)
+{
+    .special-offer__title-break
+    {
+        display: block;
+    }
+}
