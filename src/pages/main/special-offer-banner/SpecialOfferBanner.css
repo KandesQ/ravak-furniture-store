@@ -9,7 +9,7 @@
 
     margin: 0 auto;
     margin-top: 35px;
-    padding: 0 30px;
+    padding: 0 15px;
     background-clip: content-box;
 }
 
@@ -157,7 +157,7 @@
 
     .special-offer__title
     {
-        font-size: 33px;
+        font-size: 35px;
     }
 
     .special-offer__button
