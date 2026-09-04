@@ -1,0 +1,82 @@
+.why-ravak
+{
+    margin: 100px auto 0;
+    max-width: 1321px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.why-ravak__title
+{
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #1A1A1A;
+}
+
+.why-ravak__list
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 160px;
+}
+
+.why-ravak__list__item
+{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.why-ravak__list__item-icon
+{
+    width: 30px;
+    height: 30px;
+}
+
+.why-ravak__list__item-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.why-ravak__list__item-title
+{
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #1A1A1A;
+}
+
+.why-ravak__list__item-description
+{
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #6C6C6C;
+}
+
+@media (max-width: 1024px)
+{
+    .why-ravak__list
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px)
+{
+    .why-ravak__list
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+

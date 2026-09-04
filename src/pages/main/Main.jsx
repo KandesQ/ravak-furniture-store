@@ -4,6 +4,7 @@ import CollectionBanner from "./collection-banner/CollectionBanner.jsx"
 import Header from "./header/Header.jsx"
 import Hero from "./hero/Hero.jsx"
 import SpecialOfferBanner from "./special-offer-banner/SpecialOfferBanner.jsx"
+import WhyRavak from "./why-ravak/WhyRavak.jsx";
 
 export default function Main()
 {
@@ -14,6 +15,7 @@ export default function Main()
        <Catalog />
        <CollectionBanner />
        <SpecialOfferBanner />
+       <WhyRavak />
     </> 
     )
 }
